@@ -9,18 +9,16 @@ from sklearn.datasets import load_iris
 
 
 def create_plants_data_frame():
-    """Create the plantes_iris data frame from the sklearn datasets iris library."""
-    plantes_iris = load_iris()
-    df_plantes_iris = pd.DataFrame(
-        plantes_iris.data, columns=plantes_iris.feature_names
-    )
+    """Create the iris_plants data frame from the sklearn datasets iris library."""
+    iris_plants = load_iris()
+    df_iris_plants = pd.DataFrame(iris_plants.data, columns=iris_plants.feature_names)
 
-    return df_plantes_iris
+    return df_iris_plants
 
 
-def plot_plants_data_frame(df_plantes_iris):
-    """Plot the plantes_iris data frame."""
-    scatter_matrix(df_plantes_iris, figsize=(10, 10))
+def plot_plants_data_frame(df_iris_plants):
+    """Plot the iris_plants data frame."""
+    scatter_matrix(df_iris_plants, figsize=(10, 10))
     plt.show()
 
 
