@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "my-machine-learning-tutorial"
+name = "my-machine-learning"
 version = "0.1.0"
 description = "Tutorial from https://www.data-transitionnumerique.com/scikit-learn-python/."
 authors = ["Mihamina Rakotovazaha"]
